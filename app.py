@@ -6,7 +6,7 @@ app.config['SECRET_KEY'] = "hcy148"
 SESSION_TYPE = 'redis'
 app.config.from_object(__name__)
 
-conn = pymysql.connect(host='tsuts.tskoli.is', port=3306, user='0512023170', passwword='mypasswword', database='0512023170_verk8')
+conn = pymysql.connect(host='tsuts.tskoli.is', port=3306, user='0512023170', password='mypassword', database='0512023170_verk8')
 #conn = pymysql.connect(host='localhost', port=3306, user='root', password='', database='verk8')
 # https://pythonspot.com/login-authentication-with-flask/
 

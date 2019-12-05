@@ -14,6 +14,11 @@ body {
 }
 .head {
 	margin-bottom: 1.5em;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 2em;
+	margin: 0 auto;
+	padding: 0;
 }
 .nav {
 	text-align: center;
@@ -36,6 +41,9 @@ body {
     background-color: lightgrey;
     max-width: 30em;
     margin: 1em auto;
+}
+h1 {
+	padding-top: 1em;
 }
 form {
     margin-bottom: 1em;
